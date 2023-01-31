@@ -84,6 +84,15 @@ label {
     border-radius: 3px;
 }
 
+.form-section input:focus {
+    border: 1px solid black;
+    outline: none;
+}
+
+.form-section input:valid {
+    border: solid 1px green;
+}
+
 .row-group {
     display: flex;
     column-gap: 60px;
